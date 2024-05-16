@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         customGreen: '#469173',
+        customGreen100: '#05462C',
         customPink: '#FFE2B8',
       },
     },

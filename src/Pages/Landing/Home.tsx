@@ -1,10 +1,11 @@
+import Banner from '../../components/LandingPage/Home/Banner';
 import Navbar from '../../components/LandingPage/Navbar';
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <h2> Home</h2>
+      <Banner />
     </div>
   );
 };
