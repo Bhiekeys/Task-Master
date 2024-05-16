@@ -1,9 +1,9 @@
+import Router from './Router';
+
 function App() {
   return (
     <>
-      <div >
-        <h2>Task Master</h2>
-      </div>
+      <Router />
     </>
   );
 }
