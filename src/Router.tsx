@@ -1,13 +1,12 @@
 import { useRoutes } from 'react-router';
 import {
-  Home,
   About,
-  DownloadApp,
-  PrivacyPolicy,
-  Login,
   CreateAccount,
-} from './pages/Landing/Index';
-
+  DownloadApp,
+  Home,
+  Login,
+  PrivacyPolicy,
+} from './pages/Landing';
 const Router = () => {
   return useRoutes([
     {
