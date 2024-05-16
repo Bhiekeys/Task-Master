@@ -1,12 +1,6 @@
 import { useRoutes } from 'react-router';
-import {
-  About,
-  CreateAccount,
-  DownloadApp,
-  Home,
-  Login,
-  PrivacyPolicy,
-} from './pages/Landing';
+import { About, CreateAccount, DownloadApp, Home, Login, PrivacyPolicy } from './pages/Landing';
+
 const Router = () => {
   return useRoutes([
     {

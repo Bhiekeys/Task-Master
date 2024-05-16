@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { GrClose } from 'react-icons/gr';
-import { taskRoutes } from '../../utils/RouteNames';
 import { navs } from '../../constant/NavbarData';
+import { taskRoutes } from '../../utils/RouteNames';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);

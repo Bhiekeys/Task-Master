@@ -1,4 +1,4 @@
-import { taskRoutes } from '../utils/RouteNames';
+import { taskRoutes } from "../utils/RouteNames";
 
 export const navs = [
   {
