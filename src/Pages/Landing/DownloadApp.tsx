@@ -1,6 +1,11 @@
+import Navbar from '../../components/LandingPage/Navbar';
+
 const DownloadApp = () => {
   return (
-    <div>DownloadApp</div>
-  )
-}
-export default DownloadApp
+    <div>
+      <Navbar />
+      DownloadApp
+    </div>
+  );
+};
+export default DownloadApp;

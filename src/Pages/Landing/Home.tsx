@@ -1,6 +1,11 @@
+import Navbar from '../../components/LandingPage/Navbar';
+
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
-export default Home
+    <div>
+      <Navbar />
+      <h2> Home</h2>
+    </div>
+  );
+};
+export default Home;

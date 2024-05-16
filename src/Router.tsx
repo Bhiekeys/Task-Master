@@ -6,7 +6,7 @@ import {
   PrivacyPolicy,
   Login,
   CreateAccount,
-} from './Pages/Landing/Index';
+} from './pages/Landing/Index';
 
 const Router = () => {
   return useRoutes([

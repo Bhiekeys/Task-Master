@@ -1,6 +1,11 @@
+import Navbar from '../../components/LandingPage/Navbar';
+
 const PrivacyPolicy = () => {
   return (
-    <div>PrivacyPolicy</div>
-  )
-}
-export default PrivacyPolicy
+    <div>
+      <Navbar />
+      PrivacyPolicy
+    </div>
+  );
+};
+export default PrivacyPolicy;
