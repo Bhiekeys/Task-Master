@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { GrClose } from 'react-icons/gr';
 import { navs } from '../../constant/NavbarData';
-import { taskRoutes } from '../../utils/RouteNames';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -22,16 +21,14 @@ const Navbar = () => {
         show && 'rounded-b-3xl pb-6 shadow-lg'
       } flex flex-col lg:flex-row bg-white py-7 items-center sm:justify-between justify-around z-10 fixed  w-full px-5 lg:px-0  `}>
       <Link
-        to={taskRoutes.home}
+        to="/"
         className="hidden lg:flex text-customGreen text-2xl pl-[72px] font-bold">
         Task Master
       </Link>
 
       <div
         className={`lg:hidden flex justify-between items-center w-full mb-5`}>
-        <Link
-          to={taskRoutes.home}
-          className=" text-customGreen text-2xl font-bold">
+        <Link to="/" className=" text-customGreen text-2xl font-bold">
           Task Master
         </Link>
         <div className="lg:hidden ml-3 md:ml-0">
@@ -65,7 +62,7 @@ const Navbar = () => {
           );
         })}
         <NavLink
-          to={taskRoutes.login}
+          to="/"
           onClick={showContent}
           className={({ isActive }) =>
             isActive
@@ -75,7 +72,7 @@ const Navbar = () => {
           Log in
         </NavLink>
         <NavLink
-          to={taskRoutes.createAccount}
+          to="/"
           onClick={showContent}
           className={({ isActive }) =>
             isActive
@@ -107,14 +104,14 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex items-center gap-5 pr-5">
-          <Link to={taskRoutes.login}>
+          <Link to="/">
             <button
               type="button"
               className="font-bold text-sm text-customGreen ">
               Log in
             </button>
           </Link>
-          <Link to={taskRoutes.createAccount}>
+          <Link to="/">
             <button
               type="button"
               className="text-customPink bg-customGreen py-3 px-8 rounded-[10px]">

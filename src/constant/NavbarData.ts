@@ -1,24 +1,23 @@
-import { taskRoutes } from "../utils/RouteNames";
 
 export const navs = [
   {
     id: 1,
     text: 'Home',
-    url: taskRoutes.home,
+    url: '/',
   },
   {
     id: 2,
     text: 'About Us',
-    url: taskRoutes.about,
+    url: '/about',
   },
   {
     id: 3,
     text: 'Download App',
-    url: taskRoutes.downloadApp,
+    url: '/downloadApp',
   },
   {
     id: 4,
     text: 'Privacy & Policy',
-    url: taskRoutes.privacyPolicy,
+    url: '/privacyPolicy',
   },
 ];

@@ -1,12 +1,11 @@
 import { useRoutes } from 'react-router';
-import {
-  About,
-  CreateAccount,
-  DownloadApp,
-  Home,
-  Login,
-  PrivacyPolicy,
-} from './pages/Landing';
+import Home from './pages/Landing/Home';
+import About from './pages/Landing/About';
+import DownloadApp from './pages/Landing/DownloadApp';
+import PrivacyPolicy from './pages/Landing/PrivacyPolicy';
+import Login from './pages/Landing/Login';
+import CreateAccount from './pages/Landing/CreateAccount';
+
 
 const Router = () => {
   return useRoutes([
@@ -16,7 +15,7 @@ const Router = () => {
       children: [
         {
           index: true,
-          element: <Home />,
+          element: <Home/>,
         },
         {
           path: '/about',
